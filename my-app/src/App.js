@@ -1,4 +1,6 @@
 import './App.css';
+// import ModelTest from './Components/custom-model-popup/modal-test';
+import GithubProfileFinder from './Components/github-profile-finder';
 // import Accordian from './Components/accordian';
 // import RandomColor from './Components/random-color';
 // import StarRating from './Components/star-ratings';
@@ -8,7 +10,7 @@ import './App.css';
 // import menus from "./Components/tree-view/data";
 // import QrGenerator from './Components/qr-generator';
 // import DarkMode from './Components/Dark-theme';
-import ScrollIndicator from './Components/scroll-indicator';
+// import ScrollIndicator from './Components/scroll-indicator';
 
 
 function App() {
@@ -39,7 +41,13 @@ function App() {
         {/* <DarkMode/> */}
 
         {/* scrollIndicator */}
-        <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/>
+        {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
+
+        {/* custom-modal */}
+        {/* <ModelTest/> */}
+
+        {/* github profile finder */}
+        <GithubProfileFinder/>
 
     </div>
 
