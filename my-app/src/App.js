@@ -1,6 +1,16 @@
 import './App.css';
+import ScrollToSection from './Components/scroll-top-bottom/scroll-section';
+// import ScrollToTopBottom from './Components/scroll-top-bottom';
+// import UseOnclickOutsideTest from './Components/click-outside/test';
+// import UseFetchHookTest from './Components/use-fetch/test';
+
+
+// import FeatureFlags from './Components/feature-flag';
+// import FeatureFlagGlobalState from './Components/feature-flag/context';
+// import TicTacToe from './Components/tic-tac-toe';
 // import ModelTest from './Components/custom-model-popup/modal-test';
-import GithubProfileFinder from './Components/github-profile-finder';
+// import GithubProfileFinder from './Components/github-profile-finder';
+// import SearchAutocomplete from './Components/search-autoComplete';
 // import Accordian from './Components/accordian';
 // import RandomColor from './Components/random-color';
 // import StarRating from './Components/star-ratings';
@@ -11,6 +21,8 @@ import GithubProfileFinder from './Components/github-profile-finder';
 // import QrGenerator from './Components/qr-generator';
 // import DarkMode from './Components/Dark-theme';
 // import ScrollIndicator from './Components/scroll-indicator';
+// import UseWindowResizeTest from "./Components/use-window/test";
+
 
 
 function App() {
@@ -47,7 +59,33 @@ function App() {
         {/* <ModelTest/> */}
 
         {/* github profile finder */}
-        <GithubProfileFinder/>
+        {/* <GithubProfileFinder/> */}
+
+        {/* for search auto-complete */}
+        {/* <SearchAutocomplete/> */}
+
+        {/* tic-tac-toe game */}
+        {/* <TicTacToe/> */}
+
+        {/* feature flag implementation */}
+        {/* <FeatureFlagGlobalState>
+          <FeatureFlags/>
+        </FeatureFlagGlobalState> */}
+
+        {/* fetching data API dummy json */}
+        {/* <UseFetchHookTest/> */}
+
+        {/* closing while clicking outside */}
+        {/* <UseOnclickOutsideTest/> */}
+
+        {/* use window resize hook/responsive */}
+        {/* <UseWindowResizeTest/> */}
+
+        {/* scroll to top and bottom in a page */}
+        {/* <ScrollToTopBottom/> */}
+
+        {/* scroll to a particular section */}
+       <ScrollToSection/>
 
     </div>
 
